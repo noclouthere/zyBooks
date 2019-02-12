@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/105166/CLionProjects/ZyBooksChapter11/dynarray.cpp
+dynarray.h
+/Users/105166/CLionProjects/ZyBooksChapter11/dynarray.h
+
+/Users/105166/CLionProjects/ZyBooksChapter11/dynarray.h
+stdexcept
+-
+
+/Users/105166/CLionProjects/ZyBooksChapter11/main.cpp
+iostream
+-
+dynarray.h
+/Users/105166/CLionProjects/ZyBooksChapter11/dynarray.h
+
