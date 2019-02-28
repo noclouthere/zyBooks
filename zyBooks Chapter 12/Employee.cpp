@@ -31,7 +31,3 @@ void Employee::setAddress(string _address) {
 void Employee::setPhone(string _phone) {
     phone = _phone;
 }
-
-Employee::Employee(int _empNum, string _name, string _address, string _phone) {
-
-}
