@@ -6,10 +6,12 @@
 #define ZYBOOKS_CHAPTER_12_EMPLOYEE_H
 
 #include <iostream>
+#include <fstream>
+
 using namespace std;
 
 class Employee {
-private:
+protected:
     //data members
     int empNum;
     string name;
@@ -31,8 +33,9 @@ public:
     virtual void printCheck();
 
 protected:
+    virtual ~Employee(){};
     Employee() = default;
-    void readDate(ifstream&);
+    Employee* readData(ifstream);
     Employee(int _empNum, string _name, string _address, string _phone);
 
 };
