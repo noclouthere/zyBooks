@@ -1,3 +1,7 @@
+//
+// Created by 105166 on 2/14/19.
+//
+
 #include "HourlyEmployee.h"
 
 HourlyEmployee::HourlyEmployee(int _empNum, string _name,
